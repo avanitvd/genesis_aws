@@ -1,0 +1,64 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "sampledb.cimr0kdyqj64.us-east-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "RDS2",
+            "database": "sys",
+            "username": "admin",
+            "password": "Password!123",
+            "connectionTimeout": 3000
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "smpledb.cjamcg60yhuz.ap-northeast-3.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "rds 1",
+            "database": "sys",
+            "username": "admin",
+            "password": "Password!123",
+            "connectionTimeout": 300
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "smpledb.cjamcg60yhuz.ap-northeast-3.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "rds3",
+            "database": "sys",
+            "username": "admin",
+            "password": "Password!123",
+            "connectionTimeout": 300
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "avanidb.cn6qkoww88oi.ap-northeast-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "dbs",
+            "database": "sys",
+            "username": "admin",
+            "password": "password123",
+            "connectionTimeout": 300
+        }
+    ]
+}
